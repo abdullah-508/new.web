@@ -1,0 +1,496 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    background-color: rgb(95, 95, 95);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.logo span {
+    color: red;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 16px;
+}
+
+.hero-pic {
+    background-image: url(mac.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 50px;
+}
+
+.hero-content {
+
+    color: aliceblue;
+}
+
+.hero-content h1 {
+    font-size: 46px;
+    margin-bottom: 34px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 34px;
+}
+
+.hero-content button {
+    font-size: 18px;
+    padding: 18px 30px;
+    cursor: pointer;
+
+}
+
+.section1 {
+    height: 80vh;
+    padding: 150px 30px 0px 30px;
+    /* margin-bottom: 100px; */
+
+}
+
+.About-Us-Content {
+    text-align: center;
+
+}
+
+.About-Us-Content h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.About-Us-Content p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.boxs-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boxes {
+    padding: 0 8px;
+    text-align: center;
+    width: 23%;
+    height: 230px;
+}
+
+.about-box1 i {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.about-box1 :nth-child(2) {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about-box1 :nth-child(3) {
+    font-size: 16px;
+}
+
+.about-box2 i {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.about-box2 :nth-child(2) {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about-box2 :nth-child(3) {
+    font-size: 16px;
+}
+
+.section2 {
+    background-color: #F1F1F1;
+    height: 80vh;
+    padding: 100px 70px 100px 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.work-left {
+    width: 50%;
+    padding-right: 200px;
+}
+
+.work-left :nth-child(1) {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.work-left :nth-child(2) {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.work-left button {
+    background-color: black;
+    font-size: 18px;
+    color: #F1F1F1;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.work-left button:hover {
+    background-color: gainsboro;
+    color: black;
+    transition-duration: .5s;
+}
+
+.work-right {
+    background-image: url(phone_buildings.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 400px;
+    border-radius: 12px;
+
+}
+
+.section3 {
+    height: 100vh;
+    padding: 100px 30px;
+    margin-bottom: 100px;
+
+}
+
+.team-heading {
+    height: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.team-heading :nth-child(1) {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.team-heading :nth-child(2) {
+    font-size: 16px;
+}
+
+.member {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.member1 {
+    height: 500px;
+    width: 24%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    /* margin-bottom: 150px; */
+}
+
+.member1 img {
+    height: 245px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.member1-content {
+    padding: 16px;
+}
+
+.member1-content :nth-child(1) {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.member1-content :nth-child(2) {
+    font-size: 16px;
+    opacity: .5;
+    margin-bottom: 15px;
+}
+
+.member1-content :nth-child(3) {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.cont {
+    background-color: gainsboro;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cont:hover {
+    background-color: grey;
+    transition-duration: .5s;
+}
+
+.section4 {
+    height: 200px;
+    display: flex;
+    background-color: #616161;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.section4 div{
+    font-size: 26px;
+    text-align: center;
+}
+.section5{
+    height: auto;
+    width: 100%;
+    padding: 0px 30px;
+    
+}
+
+.work-heading{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.work-title{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.work-pic2box{
+    margin-bottom: 150px;
+}
+.work-pic{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+.work-items{
+    width: 24%;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+}
+.work-pic1padd{
+    margin-bottom: 20px;
+}
+.work-pic1{
+    background-image: url(tech_camera.jpg);
+}
+.work-pic2{
+    background-image: url(tech_drone.jpg);
+}
+.work-pic3{
+    background-image: url(tech_mic.jpg);
+}
+.work-pic4{
+    background-image: url(tech_phone.jpg);
+}
+.section6{
+    height: 55vh;
+    width: 100%;
+    background-color: #F1F1F1;
+    padding: 90px 30px;
+    display: flex;
+}
+.skill-left{
+    width: 50%;
+    padding-right: 200px;
+}
+.skill-left :nth-child(1){
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.skill-left :nth-child(2){
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.skill-right{
+    width: 50%;
+    
+}
+.skill-1{
+    font-size: 20px;
+}
+.skill-1level{
+    height: 30px;
+    background-color: #616161;
+    margin: 20px 0px;
+    color: white;
+    text-align: center;
+    
+    
+}
+.section7{
+    height: auto;
+    background-color: #616161;
+    padding: 150px 30px 100px 30px;
+}
+
+.pricing-heading{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+.pricing-title{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 50px;
+}
+.pricing-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-table1{
+    height: 550px;
+    width: 60vh;
+    background-color: beige;
+    
+}
+.pricing-table1 li{
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.pricing-table1 :nth-child(1){
+    background-color: black;
+    font-size: 26px;
+    padding: 32px 0px;
+    color: white;
+
+}
+.pricing-text{
+    font-size: 16px;
+    padding: 16px 0px;
+    border-bottom: 1px solid gainsboro;
+}
+.pricing-table1 :nth-child(6){
+    padding: 30px 0;
+    font-size: 20px;
+    border-bottom: 1px solid gainsboro;
+
+
+}
+.pricing-table1 :last-child{
+    font-size: 16px;
+    border: none;
+    padding: 16px;
+
+}
+.pricing-table1 :last-child:hover{
+    background-color: gray;
+    transition-duration: .5s;
+}
+.pricing-table2 :nth-child(1){
+    background-color: orangered;
+}
+.button-3rd{
+    background-color: black;
+
+}
+.pricing-table1:hover{
+    box-shadow: 0px 4px 6px black;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.section8{
+    height: 100vh;
+    width: 100%;
+    background-color: #F1F1F1;
+    padding: 100px 30px;
+}
+.contact-content {
+    text-align: center;
+}
+.contact-content :nth-child(1){
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.contact-content :nth-child(2){
+    font-size: 18px;
+    margin-bottom: 80px;
+
+}
+.contact-loc p{
+    font-size: 18px;
+    padding: 16px 0px;
+}
+.contact-form{
+    width: 100%;
+
+}
+.form-box{
+    margin-bottom: 14px;
+}
+form button{
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.contact-form form input{
+    width: 100%;
+    /* height: 50px; */
+    padding: 14px 10px;
+}
+.fot{
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+
